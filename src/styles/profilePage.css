@@ -1,0 +1,47 @@
+#formButton {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: auto;
+    height: 30px;
+    border-radius: 0px;
+}
+
+#countrySelect {
+    height: 43px;
+    border-radius: 0px;
+}
+
+#profilePageBlock{
+    margin: auto;
+    width: 50%;
+}
+
+#radioChangeColorButton {
+    margin-top: 4%;
+}
+
+#rowChangeColorButton {
+    margin: 0px;
+    width: 82%;
+}
+
+.ant-select-selector {
+    background-color: wheat !important;
+    border-radius: 0px !important;
+}
+
+.ant-radio-checked .ant-radio-inner{
+    border-color: red !important ;
+  }
+  
+  .ant-radio-checked .ant-radio-inner:after{
+    background-color: red;
+  }
+  
+  .ant-radio:hover .ant-radio-inner {
+    border-color: red ;
+  }
+
+:where(.css-dev-only-do-not-override-1km3mtt).ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+    border-color: #1677ff;
+    background-color: #ffffff;
+}
